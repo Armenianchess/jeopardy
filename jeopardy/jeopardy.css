@@ -1,0 +1,89 @@
+
+ body {
+     font-family: 'system-ui', text-align: center;
+     font-size: 9pt;
+     /*background: radial-gradient(circle, rgb(0 0 0) 0%, #333 100%);*/
+     color: white;
+}
+ .fa, .fas {
+     font-size: 20px;
+}
+ thead {
+     background-color: #897377;
+}
+ table{
+     border: 1px solid #eeee 
+}
+ h1 {
+     font-size: 40pt;
+}
+ button {
+     padding: 10px 0px;
+     background-color: #897377;
+     color: white;
+     border: none;
+     border-radius: 6px;
+     font-size: 14pt;
+     letter-spacing: .6pt;
+     width: 140px;
+}
+ button:hover {
+     background-color: #000000;
+}
+ table {
+     margin: 0 auto;
+     margin-top: 5px;
+     border-radius: 4px;
+     border-collapse: separate;
+     border-spacing: 2px;
+}
+ .not-allowed {
+     cursor: not-allowed;
+}
+ th {
+     width: 150px;
+     height: 100px;
+     padding: 6px 25px;
+     text-align: center;
+     font-weight: 700;
+     font-size: 12px;
+     cursor: default;
+     letter-spacing: .3pt;
+     border-radius: 4px;
+}
+ td {
+     border-radius: 4px;
+     background-color: rgba(255, 255, 255, 0.1);
+     width: 150px;
+     height: 80px;
+     padding: 6px 20px;
+     text-align: center;
+     cursor: pointer;
+     font-size: 9px;
+     letter-spacing: .4pt;
+}
+ .answer {
+     background-color: rgb(92 184 92);
+     font-style: italic;
+     font-size: 16px;
+}
+ i {
+     font-size: 2rem;
+     pointer-events: none;
+}
+ .loader {
+     font-size: 4rem;
+     margin-top: 100px;
+} 
+i.fa.fa-question {
+    font-size: 12px; 
+}
+
+#jeopardy {
+  text-align: center;
+  font-size: 9pt;
+  background-color: #060ce9;
+  color: white;
+  border-collapse: collapse;
+  width: 100%;
+}
